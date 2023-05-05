@@ -1,5 +1,5 @@
 import pytest
-from extractor import NumberExtractor
+from words2numsrus import NumberExtractor
 
 @pytest.fixture(scope='module')
 def extractor():

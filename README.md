@@ -1,5 +1,7 @@
 # Word-to-Number (Russian)
 
+Оригинальный проект: https://github.com/SergeyShk/Word-to-Number-Russian
+
 Проект для перевода чисел, записанных в текстовом виде на русском языке.
 
 ## Необходимые библиотеки
@@ -7,9 +9,9 @@
 * **yargy**;
 * **natasha**.
 
-Установка библиотек:
+Установка:
 
-`$ pip install -r requirements.txt`
+`$ pip install words2numsrus`
 
 ## Структура проекта
 

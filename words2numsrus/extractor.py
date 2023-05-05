@@ -1,4 +1,4 @@
-from number import NUMBER
+from .number import NUMBER
 from natasha.extractors import Extractor
 from yargy.parser import Match
 
@@ -6,7 +6,7 @@ class NumberExtractor(Extractor):
     def __init__(self):
         super(NumberExtractor, self).__init__(NUMBER)
 
-    def replace(self, text):
+    def replace(self, text: str) -> str:
         """
         Замена чисел в тексте без их группировки
 
@@ -34,7 +34,7 @@ class NumberExtractor(Extractor):
             else:
                 return new_text
         else:
-            return None
+            return ""
     
     def replace_groups(self, text):
         """
@@ -94,4 +94,4 @@ class NumberExtractor(Extractor):
             else:
                 return new_text
         else:
-            return None
+            return ""
